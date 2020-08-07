@@ -7,6 +7,7 @@
     <groupId>com.xcc.imx</groupId>
     <artifactId>pom</artifactId>
     <version>1.0.0</version>
+    <packaging>pom</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -18,7 +19,13 @@
     </modules>
     
     <dependencies>
-
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
     <repositories>
         <repository>
